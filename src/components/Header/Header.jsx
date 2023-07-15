@@ -28,7 +28,7 @@ const Header = ({ nav }) => {
           type= 'button'
           value='Comunidade'
         />
-      </header>
+    </header>
   )
 }
 
