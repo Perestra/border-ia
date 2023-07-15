@@ -3,7 +3,7 @@ import styles from './Header.module.scss'
 
 import { ReactComponent as Logo } from 'assets/svg/logo.svg'
 import Navigation from 'components/Navigation/Navigation';
-import ItemList from 'components/ItemList/ItemList';
+import AnchorList from 'components/AnchorList/AnchorList';
 import Button from 'components/Button/Button';
 
 const Header = ({ nav }) => {
@@ -15,7 +15,7 @@ const Header = ({ nav }) => {
         </div>
         <Navigation 
           list={ nav.map( (item, index) =>  
-            <ItemList
+            <AnchorList
               key={ index } 
               className={ styles.header__list }
               href=''
