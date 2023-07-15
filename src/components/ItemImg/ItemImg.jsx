@@ -1,15 +1,12 @@
 import React from 'react'
-import styles from './ItemImg.module.scss'
 
-const ItemImg = () => {
+const ItemImg = ({ className, src, alt }) => {
   return (
-    <div className={ styles.container }>
-        <img 
-            className={ styles.container__image } 
-            src="" 
-            alt="" 
-        />
-    </div>
+    <img 
+      className={ className } 
+      src={ src } 
+      alt={ alt } 
+    />
   )
 }
 
