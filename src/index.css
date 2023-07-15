@@ -16,6 +16,7 @@ body {
   --secondary: #A1A1AA;
   --btnPrimary: #27272A;
   --btnBorder: #3F3F46;
-  --titleColor: linear-gradient(90deg, #E8429C 0%, #7967FF 100%);
+  --gradientColor: linear-gradient(90deg, #E8429C 0%, #7967FF 100%);
   --titleBg: #18181B;
 }
+
