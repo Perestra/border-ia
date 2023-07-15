@@ -4,6 +4,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+}
+body {
   font-family: 'Space Grotesk', sans-serif;
+  background-color: var(--bgColor);
+}
+
+:root {
+  --bgColor: #09090B;
+  --primary: #FFF;
+  --secondary: #A1A1AA;
+  --btnPrimary: #27272A;
+  --btnBorder: #3F3F46;
 }
