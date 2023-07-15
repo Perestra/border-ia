@@ -17,6 +17,7 @@ const Footer = () => {
             <p>Designed by</p>
             <h3>Gabriel Abner Dantas</h3>   
             <Navigation 
+                flex='flexStart'
                 list={<>
                     <AnchorList className={ styles.footer__list } text={ <FaInstagram className={ styles.footer__icon } /> } href='https://www.instagram.com/abnner_dantas/' />
                     <AnchorList className={ styles.footer__list } text={ <FaLinkedinIn className={ styles.footer__icon } /> } href='https://www.linkedin.com/in/gabriel-abner-dantas-a428a9139/' />
@@ -28,6 +29,7 @@ const Footer = () => {
             <p>Developed by</p>  
             <h3>Danilo Perestrelo Silva</h3> 
             <Navigation 
+                flex='flexStart'
                 list={<>
                     <AnchorList className={ styles.footer__list } text={ <FaInstagram className={ styles.footer__icon } /> } href='https://www.instagram.com/daniilo.ps/' />
                     <AnchorList className={ styles.footer__list } text={ <FaLinkedinIn className={ styles.footer__icon } /> } href='https://www.linkedin.com/in/danilo-perestrelo-silva-13814968/' />

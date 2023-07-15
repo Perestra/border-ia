@@ -6,7 +6,10 @@ import Navigation from 'components/Navigation/Navigation';
 import AnchorList from 'components/AnchorList/AnchorList';
 import Button from 'components/Button/Button';
 
-const Header = ({ nav }) => {
+const Header = () => {
+
+  const nav = ['Recursos', 'Sobre', 'Depoimentos']
+
   return (
     <header className={ styles.header }>
         <div className={ styles.header__logo } >
@@ -14,6 +17,7 @@ const Header = ({ nav }) => {
           <h1>Border-IA</h1>
         </div>
         <Navigation 
+          flex='flexStart'
           list={ nav.map( (item, index) =>  
             <AnchorList
               key={ index } 

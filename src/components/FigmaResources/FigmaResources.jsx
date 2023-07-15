@@ -17,6 +17,7 @@ const FigmaResources = () => {
             <h1>Como o Border-IA te <span className={ styles.section__span }>ajuda no dia a dia</span></h1>
         </div>
         <Navigation 
+            flex='flexWrap'
             list={ 
                 <>
                     <ResourceList 
