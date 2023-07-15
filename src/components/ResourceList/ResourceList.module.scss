@@ -1,0 +1,45 @@
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    row-gap: 16px;
+    
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        background-color: var(--btnPrimary);
+        border: 1px solid var(--btnBorder);
+        border-radius: 4px;
+        
+        padding: 12px;
+    }
+
+    &__title {
+        width: 200px;
+        height: auto;
+        & > h1 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: var(--primary);
+            letter-spacing: 0.5px;
+        } 
+        
+    }
+
+    &__description {
+        width: 100%;
+        height: auto;
+        & > p{
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: var(--secondary);
+            letter-spacing: 0.5px;
+        }
+    }
+}
