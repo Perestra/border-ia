@@ -1,3 +1,4 @@
+import FigmaPlugin from 'components/FigmaPlugin/FigmaPlugin';
 import styles from './App.module.scss'
 import Header from 'components/Header/Header';
 
@@ -10,6 +11,9 @@ function App() {
       <Header 
         nav= { nav }
       />
+      <main>
+        <FigmaPlugin />
+      </main>
     </div>
   );
 }
