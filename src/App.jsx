@@ -5,6 +5,7 @@ import Header from 'components/Header/Header';
 import FigmaPlugin from 'components/FigmaPlugin/FigmaPlugin';
 import FigmaResources from 'components/FigmaResources/FigmaResources';
 import Designers from 'components/Designers/Designers';
+import Footer from 'components/Footer/Footer';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <FigmaResources />
           <Designers />
         </main>  
+        <Footer />
       </div>
     </div>
   );
