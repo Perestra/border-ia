@@ -1,0 +1,16 @@
+
+
+.nav {
+    flex: 1;
+
+    &__ul {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        align-items: center;
+
+        column-gap: 32px;
+        list-style: none;
+    }
+}
