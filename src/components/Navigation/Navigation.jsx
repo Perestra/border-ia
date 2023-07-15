@@ -5,7 +5,7 @@ const Navigation = ({ list }) => {
   return (
     <nav className={ styles.nav }>
         <ul className={ styles.nav__ul }>
-            {list}
+          {list}
         </ul>
     </nav>
   )
