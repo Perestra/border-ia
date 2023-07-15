@@ -1,0 +1,125 @@
+
+
+.card {
+    width: 325px;
+    height: auto;
+
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-image: linear-gradient(var(--bgColor), var(--bgColor)), var(--gradientColor);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    position: relative;
+
+    &__blur {
+        width: 100%;
+        height: auto;
+
+        position: absolute;
+        bottom: 0;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        row-gap: 25px;
+        padding: 40px;
+    }
+
+    &__header {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__menuIcon {
+        width: 2rem;
+        height: auto;
+        color: var(--primary);
+        cursor: pointer;
+    }
+
+    &__main {
+        width: 100%;
+        height: auto;
+    }
+    &__section {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        row-gap: 25px;
+
+        & > h1 {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--primary);
+            letter-spacing: .5px;
+        }
+    }
+    &__article {
+        width: 100%;
+        height: auto;
+
+        background-color: var(--btnPrimary);
+        border: 1px solid var(--btnBorder);
+
+        padding: 16px;
+
+        & > P {
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: var(--secondary);
+            letter-spacing: 0.5px;
+        }
+    }
+    &__loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        column-gap: 8px;
+
+        & > p {
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: var(--primary);
+            letter-spacing: 0.5px;
+        }
+    }
+    &__button {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: var(--gradientColor);
+        border-radius: 5px;
+
+        & > button {
+            color: var(--primary);
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: .5px;
+
+            padding: 16px 32px;
+        }
+    }
+    &__btnIcon {
+        width: 1.5rem;
+        height: auto;
+        color: var(--primary);
+    }
+}
