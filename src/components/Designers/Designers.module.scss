@@ -1,0 +1,106 @@
+
+
+.section {
+    width: 100%;
+    height: auto;
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--titleBg);
+    border: 1px solid var(--btnPrimary);
+    border-radius: 10px;
+    
+    row-gap: 24px;
+    padding: 100px 0;
+
+    &__designers {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        column-gap: 8px;
+
+        & > h2 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--secondary);
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__title {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+
+       & > h1 {
+        color: transparent;
+        font-size: 3rem;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        text-align: center;
+
+        background-image: var(--gradientResource);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+       }
+    }
+
+    &__button {
+        background: var(--primary);
+        border-radius: 5px;
+
+        & > button {
+            color: var(--bgColor);
+            font-size: 0.875rem;
+            font-weight: 700;
+            letter-spacing: .5px;
+
+            padding: 16px 32px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__icon {
+        color: var(--bgColor);
+        width: 1.5rem;
+        height: auto;
+    }
+
+    &__dotGrid_right {
+        width: 170px;
+        height: 170px;
+
+        background-image: url(../../assets/png/dot-grid-gradient-right.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    &__dotGrid_left {
+        width: 120px;
+        height: 120px;
+
+        background-image: url(../../assets/png/dot-grid-gradient-left.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
