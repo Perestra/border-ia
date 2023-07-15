@@ -4,9 +4,37 @@
     width: 100%;
     height: auto;
 
-    padding: 0 110px;
+    &__container {
+        width: 100%;
+        max-width: 1440px;
+        height: auto;
 
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
+        display: flex;
+        flex-direction: column;
+
+        margin: auto;
+        padding: 0 20px;
+        row-gap: 30px;
+    }
+
+    &__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        row-gap: 140px;
+    }
+
+    &__figma {
+        width: 100%;
+        max-width: 1216px;
+        height: 676px;
+
+        background-image: 
+        linear-gradient(180deg, transparent 0%, var(--bgColor) 100%),
+        url(./assets/png/Interface-figma.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
