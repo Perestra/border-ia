@@ -1,0 +1,65 @@
+
+
+.section {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    row-gap: 24px;
+
+    & > h1 {
+        width: 614px;
+
+        color: var(--primary);
+        font-size: 4rem;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    &__span {
+        color: var(--secondary);
+    }
+
+    &__knowMore {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        column-gap: 24px;
+
+        & > h3 {
+            width: 389px;
+
+            color: var(--secondary);
+            font-size: 1.125rem;
+            font-weight: 500;
+            letter-spacing: .5px;
+        }
+    }
+    &__button {
+        background: var(--titleColor);
+        border-radius: 5px;
+
+        & > button {
+            color: var(--primary);
+            font-size: 0.875rem;
+            font-weight: 500;
+            letter-spacing: .5px;
+
+            padding: 16px 32px;
+            text-transform: uppercase;
+        }
+    }
+    &__icon {
+        color: var(--primary);
+        width: 1.5rem;
+        height: auto;
+    }
+}
+
