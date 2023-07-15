@@ -11,6 +11,30 @@
 
     row-gap: 60px;
 
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        row-gap: 24px;
+
+        & > h1 {
+            width: 614px;
+    
+            color: var(--primary);
+            font-size: 3rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            text-align: center;
+        }
+    }
+    &__span {
+        color: var(--secondary);
+    }
+
+    
+
     &__icon {
         width: 1.5rem;
         height: auto;

@@ -10,9 +10,12 @@ import { PiSparkle, PiTextT, PiArrowsOutLight, PiUserFocusLight  } from 'react-i
 const FigmaResources = () => {
   return (
     <section className={ styles.section }>
-        <Title 
-            text='Recursos'
-        />
+        <div className={ styles.section__header }>
+            <Title 
+                text='Recursos'
+            />
+            <h1>Como o Border-IA te <span className={ styles.section__span }>ajuda no dia a dia</span></h1>
+        </div>
         <Navigation 
             list={ 
                 <>
