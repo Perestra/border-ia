@@ -6,7 +6,11 @@ const AnchorList = ({ className, href, text }) => {
     <li className={ styles.list }>
       <a 
         className={ className }
-        href={ href }>{ text }
+        href={ href }
+        target="_blank"
+        rel='noreferrer'
+      >
+        { text }
       </a>
     </li>
   )
