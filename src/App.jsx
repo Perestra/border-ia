@@ -9,14 +9,12 @@ import Footer from 'components/Footer/Footer';
 
 function App() {
 
-  const nav = ['Recursos', 'Sobre', 'Depoimentos']
+  
 
   return (
     <div className={ styles.app }>
       <div className={ styles.app__container }>
-        <Header 
-          nav= { nav }
-        />
+        <Header />
         <main className={ styles.app__main }>
           <FigmaPlugin />
           <div className={ styles.app__figma }></div> 
