@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from './ItemList.module.scss'
+import styles from './AnchorList.module.scss'
 
-const ItemList = ({ className, href, text }) => {
+const AnchorList = ({ className, href, text }) => {
   return (
     <li className={ styles.list }>
       <a 
@@ -12,4 +12,4 @@ const ItemList = ({ className, href, text }) => {
   )
 }
 
-export default ItemList
+export default AnchorList
