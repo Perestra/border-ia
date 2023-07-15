@@ -37,3 +37,16 @@
         background-size: cover;
     }
 }
+
+@media screen and (max-width: 990px) {
+    .app {
+        &__figma {
+            max-width: 680px;
+            height: 480px;
+            margin-top: 120px;
+        }
+        &__main {
+            row-gap: 80px;
+        }
+    }
+}

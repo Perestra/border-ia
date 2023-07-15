@@ -15,7 +15,7 @@
     border-radius: 10px;
     
     row-gap: 24px;
-    padding: 100px 0;
+    padding: 100px 16px;
 
     &__designers {
         width: 100%;
@@ -102,5 +102,27 @@
         position: absolute;
         left: 0;
         top: 0;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .section {
+        padding: 80px 16px;
+
+        &__designers {
+            flex-direction: column;
+            row-gap: 16px;
+    
+            & > h2 {
+                text-align: center;
+                font-size: 1rem;
+            }
+        }
+
+        &__title {
+           & > h1 {
+            font-size: 2rem;
+           }
+        }
     }
 }
