@@ -1,0 +1,76 @@
+
+
+.effect {
+    width: 100%;
+    height: auto;
+
+    position: relative;
+
+    &__blur, &__dot, &__line {
+        position: absolute;
+    }
+
+    &__blur {
+        top: -400px;
+        right: 400px;
+        z-index: 3;
+    }
+    &__dot {
+        top: -40px;
+        right: 600px;
+        z-index: 3;
+    }
+    &__line {
+        top: -30px;
+        right: 700px;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 1630px) {
+    .effect {
+        &__blur {
+            right: 300px;
+        }
+        &__dot {
+            right: 500px;
+        }
+        &__line {
+            right: 600px;
+        }
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .effect {
+        &__blur {
+            right: 100px;
+        }
+        &__dot {
+            right: 300px;
+        }
+        &__line {
+            right: 400px;
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .effect {
+        &__blur {
+            right: 0px;
+        }
+        &__dot {
+            right: 200px;
+        }
+        &__line {
+            right: 300px;
+        }
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .effect {
+        display: none;
+    }
+}
