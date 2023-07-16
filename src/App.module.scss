@@ -27,7 +27,7 @@
     &__figma {
         width: 100%;
         max-width: 1216px;
-        height: 676px;
+        height: 660px;
 
         background-image: 
         linear-gradient(180deg, transparent 0%, var(--bgColor) 100%),
@@ -35,15 +35,16 @@
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
+
+        z-index: 4;
     }
 }
 
 @media screen and (max-width: 990px) {
     .app {
         &__figma {
-            max-width: 680px;
-            height: 480px;
             margin-top: 60px;
+            background-position: left;
         }
         &__main {
             row-gap: 80px;

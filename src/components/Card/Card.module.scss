@@ -10,7 +10,11 @@
     background-origin: border-box;
     background-clip: content-box, border-box;
 
-    position: relative;
+    position: absolute;
+    top: 430px;
+    right: 450px;
+
+    z-index: 5;
 
     &__blur {
         width: 100%;
@@ -76,7 +80,7 @@
 
         padding: 16px;
 
-        & > P {
+        & > p {
             font-size: 0.875rem;
             font-weight: 400;
             color: var(--secondary);
@@ -121,5 +125,100 @@
         width: 1.5rem;
         height: auto;
         color: var(--primary);
+    }
+}
+
+@media screen and (max-width: 1630px) {
+    .card {
+        right: 350px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .card {
+        right: 150px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .card {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .card {
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .card {
+        top: 63%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .card {
+        width: 240px;
+        top: 60%;
+
+        &__container {
+            padding: 30px;
+            row-gap: 20px;
+        }
+
+        &__menuIcon {
+            width: 1.5rem;
+        }
+
+        &__section {
+            row-gap: 20px;
+    
+            & > h1 {
+                font-size: 0.875rem;
+                font-weight: 500;
+                color: var(--primary);
+                letter-spacing: .5px;
+            }
+        }
+
+        &__article {
+            padding: 12px;
+    
+            & > p {
+                font-size: 0.625rem;
+            }
+        }
+
+        &__loading {
+            & > p {
+                font-size: 0.625rem;
+            }
+        }
+
+        &__button {
+            & > button {
+                font-size: 0.75rem;
+                padding: 10px 32px;
+            }
+        }
+        &__btnIcon {
+            width: 1.125rem;
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .card {
+        top: 65%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        top: 72%;
     }
 }

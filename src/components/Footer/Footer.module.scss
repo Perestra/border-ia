@@ -72,3 +72,10 @@
         color: var(--secondary);
     }
 }
+
+@media screen and (max-width:990px) {
+    .footer {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+}
