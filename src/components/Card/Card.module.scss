@@ -148,7 +148,7 @@
 
 @media screen and (max-width: 1040px) {
     .card {
-        top: 70%;
+        top: 90%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -156,14 +156,14 @@
 
 @media screen and (max-width: 990px) {
     .card {
-        top: 63%;
+        top: 80%;
     }
 }
 
 @media screen and (max-width: 740px) {
     .card {
         width: 240px;
-        top: 60%;
+        top: 75%;
 
         &__container {
             padding: 30px;
@@ -213,12 +213,56 @@
 
 @media screen and (max-width: 570px) {
     .card {
-        top: 65%;
+        top: 70%;
     }
 }
 
 @media screen and (max-width: 375px) {
     .card {
-        top: 72%;
+        top: 98%;
+    }
+}
+
+
+
+@media screen and (max-height: 915px) {
+    .card {
+        top: 70%;
+    }
+}
+
+@media screen and (max-height: 860px) {
+    .card {
+        top: 75%;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .card {
+        top: 55%;
+    }
+}
+
+@media screen and (max-height: 740px) {
+    .card {
+        top: 88%;
+    }
+}
+
+@media screen and (max-height: 680px) {
+    .card {
+        top: 98%;
+    }
+}
+
+@media screen and (max-height: 653px) {
+    .card {
+        top: 105%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .card {
+        top: 115%;
     }
 }
