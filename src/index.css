@@ -9,6 +9,9 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   background-color: var(--bgColor);
 }
+body.scroll-lock {
+  overflow: hidden;
+}
 
 :root {
   --bgColor: #09090B;
