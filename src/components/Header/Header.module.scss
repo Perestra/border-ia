@@ -12,6 +12,8 @@
     padding: 25px 0;
     column-gap: 60px;
 
+    z-index: 999;
+
     &__logo {
         display: flex;
         align-items: center;
@@ -101,7 +103,7 @@
             display: transparent;
             position: fixed;
             top: 100px;
-            right: -500px;
+            right: -1500px;
 
             border-top: 1px solid transparent;
             border-bottom: 1px solid transparent;
@@ -111,7 +113,7 @@
             background-color: var(--bgColor);
 
             z-index: 10;
-            transition: all ease-in-out 0.3s;
+            transition: all ease-in-out 0.2s;
         }
 
         &__ul {
@@ -134,7 +136,6 @@
         }
     }
     .open {
-        display: block;
         right: 0;
     }
 }
