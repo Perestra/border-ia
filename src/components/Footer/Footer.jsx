@@ -19,9 +19,9 @@ const Footer = () => {
             <Navigation 
                 flex='flexStart'
                 list={<>
-                    <AnchorList className={ styles.footer__list } text={ <FaInstagram className={ styles.footer__icon } /> } href='https://www.instagram.com/abnner_dantas/' />
-                    <AnchorList className={ styles.footer__list } text={ <FaLinkedinIn className={ styles.footer__icon } /> } href='https://www.linkedin.com/in/gabriel-abner-dantas-a428a9139/' />
-                    <AnchorList className={ styles.footer__list } text={ <FaDribbble className={ styles.footer__icon } /> } href='https://dribbble.com/Abnner' />
+                    <AnchorList className={ styles.footer__list } target="_blank" text={ <FaInstagram className={ styles.footer__icon } /> } href='https://www.instagram.com/abnner_dantas/' />
+                    <AnchorList className={ styles.footer__list } target="_blank" text={ <FaLinkedinIn className={ styles.footer__icon } /> } href='https://www.linkedin.com/in/gabriel-abner-dantas-a428a9139/' />
+                    <AnchorList className={ styles.footer__list } target="_blank" text={ <FaDribbble className={ styles.footer__icon } /> } href='https://dribbble.com/Abnner' />
                 </>}
             />
         </div>
@@ -31,9 +31,9 @@ const Footer = () => {
             <Navigation 
                 flex='flexStart'
                 list={<>
-                    <AnchorList className={ styles.footer__list } text={ <FaInstagram className={ styles.footer__icon } /> } href='https://www.instagram.com/daniilo.ps/' />
-                    <AnchorList className={ styles.footer__list } text={ <FaLinkedinIn className={ styles.footer__icon } /> } href='https://www.linkedin.com/in/danilo-perestrelo-silva-13814968/' />
-                    <AnchorList className={ styles.footer__list } text={ <FaGithub className={ styles.footer__icon } /> } href='https://github.com/Perestra?tab=repositories' />
+                    <AnchorList className={ styles.footer__list } target="_blank" text={ <FaInstagram className={ styles.footer__icon } /> } href='https://www.instagram.com/daniilo.ps/' />
+                    <AnchorList className={ styles.footer__list } target="_blank" text={ <FaLinkedinIn className={ styles.footer__icon } /> } href='https://www.linkedin.com/in/danilo-perestrelo-silva-13814968/' />
+                    <AnchorList className={ styles.footer__list } target="_blank" text={ <FaGithub className={ styles.footer__icon } /> } href='https://github.com/Perestra?tab=repositories' />
                 </>}
             />
         </div>
